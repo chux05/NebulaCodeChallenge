@@ -125,8 +125,10 @@ function legal(x) {
 ```
 
 1. Why will the function be parsed correctly? 
+
 	```Since javascript is not a statically typed language, it will not check the data type of the parameter. Using the **var** keyword also does not stop the declaration of already declared variables.```
 
 2. How could you introduce a stricter syntax to variable/function declaration and avoid this behaviour?
  Why will the function be parsed correctly? 
+ 
 	```Using the **let** keyword ensures that once a variable is declared, it cannot be declared again. If the issue was about parameter types in function declaration, It would be best to use TypeScript.```
